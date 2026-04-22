@@ -13,5 +13,8 @@ fun main(args: Array<String>) {
     conditionalStatement()
     switchCase()
     loopInKotlin()
+    collectionList()
+    collectionSet()
+    collectionMap()
 
 }

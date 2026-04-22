@@ -6,5 +6,7 @@ public class JavaClass {
 
     public void show(String message){
         System.out.println(message);
+        Collection.collectionList();
+
     }
 }
