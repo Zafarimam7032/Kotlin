@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.8.10"
+    kotlin("jvm") version "1.8.20"   // ✅ Kotlin plugin version
     application
 }
 
@@ -20,9 +20,10 @@ tasks.test {
     useJUnitPlatform()
 }
 
-tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "1.8"
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+    kotlinOptions.jvmTarget = "11"
 }
+
 
 application {
     mainClass.set("MainKt")
