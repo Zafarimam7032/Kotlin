@@ -25,5 +25,10 @@ fun main(args: Array<String>) {
   kotlinConstructor.display()
   val kotlinConstructor1 = KotlinConstructor(10, "zafar", "imam")
   kotlinConstructor1.show()
+  kotlinConstructor1.fullInformation()
 
+}
+
+fun  KotlinConstructor.fullInformation(){
+  println("$id $name} $fname $lName")
 }

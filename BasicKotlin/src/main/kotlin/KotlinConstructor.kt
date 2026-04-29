@@ -10,10 +10,10 @@ class KotlinConstructor constructor(id :Int) {
     }
 
 
-    private var id :Int? = id
-    private var name :String?=null
-    private var fname :String?=null
-    private var lName :String?=null
+     var id :Int? = id
+     var name :String?=null
+    var fname :String?=null
+     var lName :String?=null
 
     fun display(){
         println("Information : $id name : $name")
