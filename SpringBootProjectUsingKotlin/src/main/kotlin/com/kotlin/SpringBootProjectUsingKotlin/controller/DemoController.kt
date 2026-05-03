@@ -1,7 +1,7 @@
 package com.kotlin.SpringBootProjectUsingKotlin.controller
 
 import com.kotlin.SpringBootProjectUsingKotlin.model.Employee
-import com.kotlin.SpringBootProjectUsingKotlin.service.DemoService
+import com.kotlin.SpringBootProjectUsingKotlin.service.impl.DemoService
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired

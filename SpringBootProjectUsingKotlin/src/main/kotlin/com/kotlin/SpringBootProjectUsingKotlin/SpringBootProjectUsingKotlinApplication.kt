@@ -1,6 +1,5 @@
 package com.kotlin.SpringBootProjectUsingKotlin
 
-import com.zafar.java.EmployeeController
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 

@@ -1,4 +1,4 @@
-package com.kotlin.SpringBootProjectUsingKotlin.service
+package com.kotlin.SpringBootProjectUsingKotlin.service.impl
 
 import org.springframework.stereotype.Service
 
